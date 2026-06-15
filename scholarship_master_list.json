@@ -1,0 +1,26 @@
+{
+    "Chevening (UK)": {
+        "status": "\ud83d\udd34 CLOSED",
+        "deadline": "2025-10-07",
+        "alert": "",
+        "description": "Full funding for 1-year Master's in the UK.",
+        "url": "https://www.chevening.org/scholarships/guidance/application-timeline/",
+        "last_updated": "2026-06-15T08:00:50.390809"
+    },
+    "Fulbright Foreign Student (USA)": {
+        "status": "\ud83d\udd34 CLOSED",
+        "deadline": "2026-05-31",
+        "alert": "",
+        "description": "Master's and PhD funding for study in the USA.",
+        "url": "https://foreign.fulbrightonline.org/about/foreign-student-program",
+        "last_updated": "2026-06-15T08:00:51.231369"
+    },
+    "Turkiye Burslari (Turkey)": {
+        "status": "\ud83d\udfe2 OPEN",
+        "deadline": "2025-02-20",
+        "alert": "\ud83d\udd25 ACTION REQUIRED: The Turkiye Burslari (Turkey) portal is active!",
+        "description": "Undergraduate, Master's, and PhD in Turkey.",
+        "url": "https://www.turkiyeburslari.gov.tr/calendar",
+        "last_updated": "2026-06-15T08:00:52.815193"
+    }
+}
