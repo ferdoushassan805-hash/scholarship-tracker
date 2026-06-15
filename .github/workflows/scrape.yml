@@ -1,31 +1,23 @@
-name: Update Scholarship Data
+name: Scholarship Scraper
 
 on:
   schedule:
-    # Runs every 12 hours (at 00:00 and 12:00 UTC)
     - cron: '0 */12 * * *'
-  workflow_dispatch: # This allows you to run it manually from the "Actions" tab
-
-env:
-  # This removes the Node.js deprecation warning
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Check out your code (Updated to v4 for Node 24 support)
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 2. Set up Python (Updated to v5 for Node 24 support)
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      # 3. Install Playwright and its dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -33,17 +25,15 @@ jobs:
           playwright install chromium
           playwright install-deps
 
-      # 4. Run your Python script
       - name: Run Scraper
+        # Ensure this filename matches your Python file exactly
         run: python scholarship_monitor.py
 
-      # 5. Save the results back to your GitHub Repo
       - name: Commit and Push changes
         run: |
           git config --global user.name "ScholarshipBot"
           git config --global user.email "bot@example.com"
           git add scholarship_master_list.json
-          # Only commit if there are actually changes to the file
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update scholarship data: $(date)" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update scholarship data" && git push)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
