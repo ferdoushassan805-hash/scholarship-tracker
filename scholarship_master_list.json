@@ -5,7 +5,7 @@
         "alert": "",
         "url": "https://www.chevening.org/scholarships/guidance/application-timeline/",
         "description": "Full funding for 1-year Master's in the UK.",
-        "last_updated": "2026-06-15T08:21:03.150145"
+        "last_updated": "2026-06-15T10:44:44.589952"
     },
     "Fulbright Foreign Student (USA)": {
         "status": "\ud83d\udd34 CLOSED",
@@ -13,7 +13,7 @@
         "alert": "",
         "url": "https://foreign.fulbrightonline.org/about/foreign-student-program",
         "description": "Master's and PhD funding for study in the USA.",
-        "last_updated": "2026-06-15T08:21:03.427448"
+        "last_updated": "2026-06-15T10:44:44.863514"
     },
     "Turkiye Burslari (Turkey)": {
         "status": "\ud83d\udfe2 OPEN",
@@ -21,7 +21,7 @@
         "alert": "\ud83d\udd25 ACTION REQUIRED: The Turkiye Burslari (Turkey) portal is active!",
         "url": "https://www.turkiyeburslari.gov.tr/calendar",
         "description": "Undergraduate, Master's, and PhD in Turkey.",
-        "last_updated": "2026-06-15T08:21:04.655095"
+        "last_updated": "2026-06-15T10:44:45.921479"
     },
     "Erasmus Mundus (EU)": {
         "status": "\ud83d\udd34 CLOSED",
@@ -29,7 +29,7 @@
         "alert": "",
         "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
         "description": "Joint Master's degrees across multiple EU countries.",
-        "last_updated": "2026-06-15T08:22:36.165423"
+        "last_updated": "2026-06-15T10:46:17.352566"
     },
     "MEXT (Japan)": {
         "status": "\ud83d\udd34 CLOSED",
@@ -37,6 +37,6 @@
         "alert": "",
         "url": "https://www.studyinjapan.go.jp/en/smap-stopj-applications-research.html",
         "description": "Research, Undergraduate, and Tech college in Japan.",
-        "last_updated": "2026-06-15T08:22:38.970319"
+        "last_updated": "2026-06-15T10:46:19.926746"
     }
 }
