@@ -2,35 +2,48 @@ name: Update Scholarship Data
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Runs every 12 hours
-  workflow_dispatch:      # Allows you to run it manually with a button
+    # Runs every 12 hours (at 00:00 and 12:00 UTC)
+    - cron: '0 */12 * * *'
+  workflow_dispatch: # This allows you to run it manually from the "Actions" tab
+
+env:
+  # This removes the Node.js deprecation warning
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write     # Allows the bot to save the JSON file back to your repo
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      # 1. Check out your code (Updated to v4 for Node 24 support)
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
+      # 2. Set up Python (Updated to v5 for Node 24 support)
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
+      # 3. Install Playwright and its dependencies
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
-          python -m playwright install chromium
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install chromium
+          playwright install-deps
 
+      # 4. Run your Python script
       - name: Run Scraper
-        run: python scholarship_tracker.py
+        run: python scholarship_monitor.py
 
+      # 5. Save the results back to your GitHub Repo
       - name: Commit and Push changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name "ScholarshipBot"
+          git config --global user.email "bot@example.com"
           git add scholarship_master_list.json
-          git commit -m "Auto-update scholarship status" || echo "No changes to commit"
-          git push
+          # Only commit if there are actually changes to the file
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update scholarship data: $(date)" && git push)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
