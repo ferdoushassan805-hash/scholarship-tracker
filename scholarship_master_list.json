@@ -5,7 +5,7 @@
         "alert": "",
         "url": "https://www.chevening.org/scholarship/bangladesh/",
         "description": "Full funding for Masters in the UK for Bangladeshi professionals.",
-        "last_updated": "2026-07-12T01:58:29.858339"
+        "last_updated": "2026-07-12T13:03:06.168137"
     },
     "Fulbright (USA) - Bangladesh": {
         "status": "\ud83d\udd34 CLOSED",
@@ -13,7 +13,7 @@
         "alert": "",
         "url": "https://bd.usembassy.gov/fulbright-foreign-student-program-announcement/",
         "description": "Masters degree funding for Bangladeshi students in the USA.",
-        "last_updated": "2026-07-12T01:58:30.369504"
+        "last_updated": "2026-07-12T13:03:06.563472"
     },
     "Turkiye Burslari (Turkey)": {
         "status": "\ud83d\udfe2 OPEN",
@@ -21,7 +21,7 @@
         "alert": "\ud83d\udd25 APPLY NOW: The portal for Turkiye Burslari (Turkey) is active!",
         "url": "https://www.turkiyeburslari.gov.tr/calendar",
         "description": "Full scholarship for UG, Masters, and PhD in Turkey.",
-        "last_updated": "2026-07-12T01:58:31.601587"
+        "last_updated": "2026-07-12T13:03:07.846358"
     },
     "Australia Awards - Bangladesh": {
         "status": "\ud83d\udd34 CLOSED",
@@ -29,7 +29,7 @@
         "alert": "",
         "url": "https://australiaawardsbangladesh.org/",
         "description": "Masters funding focused on Bangladesh's development sectors.",
-        "last_updated": "2026-07-12T01:58:33.454573"
+        "last_updated": "2026-07-12T13:03:09.770524"
     },
     "Erasmus Mundus (EU)": {
         "status": "\ud83d\udd34 CLOSED",
@@ -37,7 +37,7 @@
         "alert": "",
         "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
         "description": "Joint Masters degrees across Europe for BD students.",
-        "last_updated": "2026-07-12T01:58:34.760469"
+        "last_updated": "2026-07-12T13:03:10.903291"
     },
     "MEXT (Japan) - Bangladesh": {
         "status": "\ud83d\udd34 CLOSED",
@@ -45,6 +45,6 @@
         "alert": "",
         "url": "https://www.bd.emb-japan.go.jp/itpr_en/scholarshipnotice.html",
         "description": "Full funding for research and degrees from the Govt of Japan.",
-        "last_updated": "2026-07-12T01:58:34.914940"
+        "last_updated": "2026-07-12T13:03:10.967991"
     }
 }
