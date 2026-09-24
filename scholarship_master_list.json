@@ -5,7 +5,7 @@
         "alert": "\ud83d\udd25 APPLY NOW: The portal for Chevening (UK) - Bangladesh is active!",
         "url": "https://www.chevening.org/scholarship/bangladesh/",
         "description": "Full funding for Masters in the UK for Bangladeshi professionals.",
-        "last_updated": "2026-09-24T02:28:20.098596"
+        "last_updated": "2026-09-24T16:14:05.977640"
     },
     "Fulbright (USA) - Bangladesh": {
         "status": "\ud83d\udd34 CLOSED",
@@ -13,7 +13,7 @@
         "alert": "",
         "url": "https://bd.usembassy.gov/fulbright-foreign-student-program-announcement/",
         "description": "Masters degree funding for Bangladeshi students in the USA.",
-        "last_updated": "2026-09-24T02:28:20.535949"
+        "last_updated": "2026-09-24T16:14:06.415110"
     },
     "Turkiye Burslari (Turkey)": {
         "status": "\ud83d\udfe2 OPEN",
@@ -21,7 +21,7 @@
         "alert": "\ud83d\udd25 APPLY NOW: The portal for Turkiye Burslari (Turkey) is active!",
         "url": "https://www.turkiyeburslari.gov.tr/calendar",
         "description": "Full scholarship for UG, Masters, and PhD in Turkey.",
-        "last_updated": "2026-09-24T02:28:22.025875"
+        "last_updated": "2026-09-24T16:14:07.643006"
     },
     "Australia Awards - Bangladesh": {
         "status": "\ud83d\udd34 CLOSED",
@@ -29,7 +29,7 @@
         "alert": "",
         "url": "https://australiaawardsbangladesh.org/",
         "description": "Masters funding focused on Bangladesh's development sectors.",
-        "last_updated": "2026-09-24T02:28:24.984781"
+        "last_updated": "2026-09-24T16:14:10.753464"
     },
     "Erasmus Mundus (EU)": {
         "status": "\ud83d\udd34 CLOSED",
@@ -37,7 +37,7 @@
         "alert": "",
         "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
         "description": "Joint Masters degrees across Europe for BD students.",
-        "last_updated": "2026-09-24T02:28:26.099523"
+        "last_updated": "2026-09-24T16:14:12.021009"
     },
     "MEXT (Japan) - Bangladesh": {
         "status": "\ud83d\udd34 CLOSED",
@@ -45,6 +45,6 @@
         "alert": "",
         "url": "https://www.bd.emb-japan.go.jp/itpr_en/scholarshipnotice.html",
         "description": "Full funding for research and degrees from the Govt of Japan.",
-        "last_updated": "2026-09-24T02:28:26.346136"
+        "last_updated": "2026-09-24T16:14:12.100608"
     }
 }
